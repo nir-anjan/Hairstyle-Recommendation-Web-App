@@ -1,6 +1,7 @@
 # Hairstyle Recommendation Web App
 
-![App Preview](link-to-your-app-preview-image.png)
+![App Preview](FreeStyle_main.png)
+![App Preview](FreeStyle_function.png)
 
 ## Overview
 
