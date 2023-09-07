@@ -24,30 +24,6 @@ This web application uses machine learning and computer vision to suggest hairst
    git clone https://github.com/yourusername/hairstyle-recommendation-app.git
 Creating a `README.md` file is essential for providing information about your project on GitHub. Here's a template for a `README.md` file for your machine learning-based web app that suggests hairstyles based on face shapes. You can customize it to fit your project's specific details:
 
-```markdown
-# Hairstyle Recommendation Web App
-
-![App Preview](link-to-your-app-preview-image.png)
-
-## Overview
-
-This web application uses machine learning and computer vision to suggest hairstyles based on a user's face shape. It analyzes uploaded photos to determine face shapes and offers personalized hairstyle recommendations. Users can virtually try on recommended hairstyles to visualize their new look.
-
-## Features
-
-- **Face Shape Analysis**: Utilizes OpenCV for face detection and shape analysis.
-- **Hairstyle Database**: A categorized collection of hairstyles to match various face shapes.
-- **Virtual Try-On**: Allows users to visualize recommended hairstyles using their uploaded photo.
-- **User Profiles**: Users can create profiles to save preferences and view past selections.
-- **Social Sharing**: Share your new look on social media.
-- **Feedback**: Provide feedback and reviews on recommended hairstyles.
-
-## Installation
-
-1. Clone the repository:
-   ```shell
-   git clone https://github.com/yourusername/hairstyle-recommendation-app.git
-   ```
 
 2. Navigate to the project directory:
    ```shell
