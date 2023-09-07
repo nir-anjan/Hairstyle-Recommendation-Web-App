@@ -1,11 +1,12 @@
 # Hairstyle Recommendation Web App
 
 ![App Preview](FreeStyle_main.png)
-![App Preview](FreeStyle_function.png)
+
 
 ## Overview
 
 This web application uses machine learning and computer vision to suggest hairstyles based on a user's face shape. It analyzes uploaded photos to determine face shapes and offers personalized hairstyle recommendations. Users can virtually try on recommended hairstyles to visualize their new look.
+![App Preview](FreeStyle_function.png)
 
 ## Features
 
