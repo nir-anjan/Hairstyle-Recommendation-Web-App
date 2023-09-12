@@ -20,7 +20,7 @@
   .vector-icon {
     position: absolute;
     top: 0;
-    left: 1129.75px;
+    right: 0;
     width: 310.25px;
     height: 395.17px;
   }
@@ -111,18 +111,29 @@
   }
   .hero-side {
     position: absolute;
-    top: 265px;
-    left: 784px;
-    width: 441px;
-    height: 220px;
+    top: 25%;
+    left: 55%;
+    scale: 115%;
+    height: auto;
+    width: auto;
   }
-  .hero-main-icon,
+  .hero-main-icon {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    scale: 125%;
+    height: auto;
+    width: auto;
+
+  }
   .sample-child {
     position: absolute;
-    top: 195px;
-    left: 139px;
-    width: 471.51px;
-    height: 401.06px;
+    top: 50%;
+    left: 20%;
+    
+    height: auto;
+    width: auto;
+    
   }
   .sample-child {
     top: 0;
@@ -187,36 +198,42 @@
   }
   .image-row {
     position: absolute;
-    top: 84px;
-    left: 31.38px;
+    top: 65%;
+    left: 20%;
     box-shadow: 0 4px 11px rgba(0, 0, 0, 0.44);
-    width: 1306.25px;
-    height: 209px;
+    width: auto;
+    height: auto;
   }
-  .sample {
+  
+ 
+  
+
+  .sample-child {
     position: absolute;
-    top: 621px;
-    left: 36px;
-    width: 1368px;
+    top: 60%;
+    left: 5%;
+    border-radius: 64px;
+    background-color: var(--color-steelblue);
+    box-shadow: 0 11px 14px rgba(0, 0, 0, 0.35);
+    width: 90%; /* Set the width to your desired value, for example, 80% */
     height: 342px;
-    text-align: left;
-    font-size: 36px;
-    color: var(--color-white);
-    font-family: var(--font-kokoro);
   }
+  
   .nav-child,
   .vector-icon1 {
     position: absolute;
-    top: 903.33px;
+    
     left: 0;
+    bottom: 0;
     width: 479.99px;
     height: 120.67px;
   }
   .nav-child {
     top: 0;
+    left: 0;
     border-radius: 20px;
     background-color: var(--color-steelblue);
-    width: 1440px;
+    width: 100%; /* Set the width to 100% to match the full-width .nav */
     height: 102px;
   }
   .free-style {
@@ -289,9 +306,10 @@
     height: 34px;
   }
   .nav {
+    position: absolute;
     top: 0;
     left: 0;
-    width: 1440px;
+    width: 100%; /* Set the width to 100% to make it full-width */
     height: 102px;
     opacity: 0;
     text-align: left;
@@ -304,10 +322,9 @@
   }
   .main {
     position: relative;
-    border-radius: 50px;
-    background-color: #333;
+    border-radius: 0%;
+    background-color: #333; /* Set the background color to #333 */
     width: 100%;
-    height: 1024px;
+    height: 100vh; /* Set the height to 100vh to fill the entire viewport height */
     overflow: hidden;
   }
-  
